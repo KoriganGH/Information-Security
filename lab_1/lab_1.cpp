@@ -32,7 +32,7 @@ int main()
 	int N;
 	cin >> N;
 	ofstream fout;
-	fout.open("C:/Users/kiror/Desktop/input.txt");
+	fout.open("C:/Users/user/Desktop/input.txt");
 	fout << N << endl;
 	int* array = new int[N];
 	for (int i = 0; i < N; i++) {
@@ -47,7 +47,7 @@ int main()
 			i = 0;
 		}
 	}
-	fout.open("C:/Users/kiror/Desktop/output.txt");
+	fout.open("C:/Users/user/Desktop/output.txt");
 	fout << "POSSIBLE SOLUTION" << endl;
 	fout << binary(ans) << endl;
 	fout.close();
