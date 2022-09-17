@@ -53,8 +53,8 @@ int main()
 	fout.close();
 	/*
 	int test = rand() % 999 + 1;
-	while (srav(binary(test), binary(t_ans))!=10) {
-		cout << binary(test) << srav(binary(test), binary(t_ans)) << endl;
+	while (compare(binary(test), binary(t_ans))!=10) {
+		cout << binary(test) << compare(binary(test), binary(t_ans)) << endl;
 		test = rand() % 999 + 1;
 	}
 	cout << endl;
