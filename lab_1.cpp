@@ -43,6 +43,7 @@ int compare(string x, string y) {
 int main()
 {
 	srand(time(NULL));
+	ofstream fout;
 /*	
 	int t_ans = rand() % 999 + 1;
 	cout << "Enter the N" << endl;
@@ -57,7 +58,6 @@ int main()
 	}
 	fout.close();
 */
-	ofstream fout;
 	ifstream fin;
 	fin.open("C:/Users/User/Desktop/input.txt");
 	string st;
